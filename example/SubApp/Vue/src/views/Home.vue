@@ -18,6 +18,11 @@ export default {
     return {
       title: `Welcome to Your Vue.js App ${window.title || '🚀 FAKE ALIYUN FOR Vue'}`
     }
+  },
+  methods: {
+    test() {
+      return 0/0;
+    }
   }
 }
 </script>
